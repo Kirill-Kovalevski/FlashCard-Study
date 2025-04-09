@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flashcard Study App</title>
+  <link rel="stylesheet" href="dist/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Flashcard Study App</h1>
+    <form id="flashcard-form">
+      <input type="text" id="question" placeholder="Question">
+      <input type="text" id="answer" placeholder="Answer">
+      <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+        <button type="submit" id="save-flashcard">Save Flashcard</button>
+        <button type="button" id="start-studying">Start Studying</button>
+      </div>
+    </form>
+    <div id="flashcards" class="flashcards"></div>
+  </div>
+  <script type="module" src="dist/dist/app.js"></script>
+</body>
+</html>
